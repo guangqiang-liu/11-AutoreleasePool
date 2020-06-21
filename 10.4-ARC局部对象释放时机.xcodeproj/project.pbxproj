@@ -16,6 +16,7 @@
 		9C3AC2D023F91F88004C7B9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3AC2CF23F91F88004C7B9D /* main.m */; };
 		9C3AC2DA23F91F88004C7B9D /* _0_4_ARC________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3AC2D923F91F88004C7B9D /* _0_4_ARC________Tests.m */; };
 		9C3AC2E523F91F88004C7B9D /* _0_4_ARC________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3AC2E423F91F88004C7B9D /* _0_4_ARC________UITests.m */; };
+		9C3AC2F423F91F96004C7B9D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3AC2F323F91F95004C7B9D /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		9C3AC2E023F91F88004C7B9D /* 10.4-ARC局部对象释放时机UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "10.4-ARC局部对象释放时机UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3AC2E423F91F88004C7B9D /* _0_4_ARC________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0_4_ARC________UITests.m"; sourceTree = "<group>"; };
 		9C3AC2E623F91F88004C7B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C3AC2F223F91F95004C7B9D /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9C3AC2F323F91F95004C7B9D /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				9C3AC2C123F91F88004C7B9D /* SceneDelegate.m */,
 				9C3AC2C323F91F88004C7B9D /* ViewController.h */,
 				9C3AC2C423F91F88004C7B9D /* ViewController.m */,
+				9C3AC2F223F91F95004C7B9D /* Person.h */,
+				9C3AC2F323F91F95004C7B9D /* Person.m */,
 				9C3AC2C623F91F88004C7B9D /* Main.storyboard */,
 				9C3AC2C923F91F88004C7B9D /* Assets.xcassets */,
 				9C3AC2CB23F91F88004C7B9D /* LaunchScreen.storyboard */,
@@ -269,6 +274,7 @@
 			files = (
 				9C3AC2C523F91F88004C7B9D /* ViewController.m in Sources */,
 				9C3AC2BF23F91F88004C7B9D /* AppDelegate.m in Sources */,
+				9C3AC2F423F91F96004C7B9D /* Person.m in Sources */,
 				9C3AC2D023F91F88004C7B9D /* main.m in Sources */,
 				9C3AC2C223F91F88004C7B9D /* SceneDelegate.m in Sources */,
 			);
